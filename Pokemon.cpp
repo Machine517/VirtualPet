@@ -23,7 +23,3 @@ int Pokemon::getHealth() const {
 void Pokemon::makeSound() const {
 	cout << "RAWR" << endl;
 }
-
-void Pokemon::increaseHappiness(int amount) {
-	cout << "I OVERWROTE THE PROTECTED METHOD BUT CAN'T CHANGE HAPPINESS BC PRIVACY REASONS" << endl;
-}

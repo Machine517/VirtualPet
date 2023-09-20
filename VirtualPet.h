@@ -7,15 +7,14 @@ using namespace std;
 class VirtualPet {
 	private:
 		string name;
-		int happiness;
 		int hunger;
 
-
 	protected:
-		void increaseHappiness(int amount);
+		virtual void increaseHappiness(int amount);
 		void decreaseHappiness(int amount);
 		void increaseHunger(int amount);
 		void decreaseHunger(int amount);
+        int happiness;
 
 	public:
 		VirtualPet(const string& petName);
